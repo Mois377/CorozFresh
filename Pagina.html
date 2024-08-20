@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Productos de Corozo</title>
+    <link rel="stylesheet" href="descoracion.css"> <!-- Conexión al archivo CSS -->
+</head>
+<body>
+    
+    <header>
+        <h1>Bienvenido a la Tienda de CoroFress</h1>
+        <nav>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#qr">Escanea el QR</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="productos">
+       
+        <h2>Nuestros Productos</h2>
+        <nav>
+            <ul>
+                <li><a href="#collar">Collar de Corozo</a></li>
+                <li><a href="#pulsera">Pulsera de Corozo</a></li>
+            </ul>
+        </nav>
+ 
+        <div id="Frappes" class="product">
+            <h3>Frappe de corozo</h3>
+            <p>un delicioso jugo de corozo.</p>
+            <button onclick="verQr('matias.png')">Ver QR para este producto</button>
+        </div>
+        <div id="pulsera" class="product">
+            <h3>Pie de corozo</h3>
+            <p>Elegante postre hecho con corozo.</p>
+            <button onclick="verQr('matias.png')">Ver QR para este producto</button>
+        </div>
+        <div id="pulsera" class="product">
+            <h3>Chiskake de corozo</h3>
+            <p>Pundin o un flan mas parecido a una gelatina de leche.</p>
+            <button onclick="verQr('matias.png')">Ver QR para este producto</button>
+        </div>
+        <div id="pulsera" class="product">
+            <h3>Tartaletas</h3>
+            <p>Hechos en horno y acequible para tados</p>
+            <button onclick="verQr('matias.png')">Ver QR para este producto</button>
+        </div>
+        
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <nav>
+            <ul>
+                <li><a href="#productos">Ir a Productos</a></li>
+                <li><a href="#qr">Ir a QR</a></li>
+            </ul>
+        </nav>
+        <a href="https://www.instagram.com/corozfresh_">Instagram</a>
+    </section>
+       
+
+    <section id="qr">
+        <h2>Escanea el QR</h2>
+        <nav>
+            <ul>
+                <li><a href="#productos">Ir a Productos</a></li>
+                <li><a href="#contacto">Ir a Contacto</a></li>
+            </ul>
+        </nav>
+        <div id="qr-display">
+            <p>Haz clic en un botón para ver el código QR del producto.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tienda de Corozo. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="responsive.js"></script> <!-- Conexión al archivo JavaScript -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
